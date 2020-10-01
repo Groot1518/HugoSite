@@ -1,0 +1,2 @@
+# HugoSite
+sample Hugo Site
