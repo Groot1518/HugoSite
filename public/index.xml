@@ -1,30 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Core</title>
-    <link>/</link>
-    <description>Recent content on Core</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Post</title>
-      <link>/post/</link>
-      <pubDate>Tue, 29 Sep 2020 13:09:05 +0530</pubDate>
-      
-      <guid>/post/</guid>
-      <description>This is A.md file Angie ThomasHello worldGet gateway Reqest/api/gateway/#GETname : isvalid
-allowedValues : [true false]
-value : true
-name : isvalid2
-allowedValues : [true false]
-value : true
-map[a:b key2:value2 key3:value3 key4:value4]-------------------------------Class Student {public static void main(String args[]) {}}copyfunction getCode(){var code = document.getElementById(&#39;code&#39;);var textarea = document.createElement(&#39;textarea&#39;);textarea.value = code.innerHTML.trim();document.body.appendChild(textarea);textarea.</description>
-      
-    </item>
-    
-  </channel>
-</rss>
