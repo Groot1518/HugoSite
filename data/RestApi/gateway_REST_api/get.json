@@ -1,0 +1,16 @@
+{
+  "usecase" : "Get gateway Reqest",
+  "REST_Resource" : "/api/gateway/#",
+  "method" : "GET",
+  "query_param" : [{
+      "name" : "isvalid",
+      "allowedValues" : ["true","false"],
+      "value" : "true"
+    },{
+        "name" : "isvalid2",
+        "allowedValues" : ["true","false"],
+        "value" : "true"
+      }],
+  "request" : "getRequest",
+  "response" : "getResponse"
+}

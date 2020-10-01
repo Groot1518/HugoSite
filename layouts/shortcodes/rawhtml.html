@@ -1,0 +1,7 @@
+<!-- raw html -->
+{{$datapoint := .Get 0}}
+{{ $data := index $.Site.Data.list $datapoint }}
+{{range $data}}
+  {{$eachDataMap :=.}}
+  {{partial "dropdown" $eachDataMap}}
+{{end}}

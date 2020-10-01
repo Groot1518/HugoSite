@@ -1,0 +1,24 @@
+<!-- rest API -->
+{{$input := .Get 0}}
+{{$payload := index $.Site.Data.RestApi.gateway_REST_api $input}}
+
+{{$usecase := $payload.usecase}}
+{{$request := $payload.REST_Resource}}
+{{$method := $payload.method}}
+{{$queryparam := $payload.query_param}}
+<div>{{$usecase}}</div>
+<div>{{$request}}</div>
+<div>{{$method}}</div>
+<div>
+  {{range $queryparam}}
+    name : {{.name}}<br>
+    allowedValues : {{.allowedValues}}<br>
+    value : {{.value}}<br>
+  {{end}}
+</div>
+{{$requestIndex := $payload.request}}
+{{$request := index $.Site.Data.RestApi.gateway_REST_api $requestIndex}}
+{{$request}}
+<br>
+-------------------------------
+<br>
